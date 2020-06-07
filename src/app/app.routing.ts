@@ -23,7 +23,12 @@ component:ArtistComponent
 {
 path:'album/:id',
 component:AlbumComponent
+},{
+    path: 'login/callback',
+    component: SearchComponent
+
 }
+
 ];
 
 export const routing:ModuleWithProviders=RouterModule.forRoot(appRoutes);

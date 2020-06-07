@@ -5,8 +5,8 @@ h1 {
 }
 
 .main{
-  border-bottom:#333 1px solid;
-  padding:30px
+  /* border-bottom:#333 1px solid; */
+  padding:30px;
 }
 .artist-header{
   padding-bottom:20px;
@@ -35,4 +35,26 @@ border:#666 1px solid;
 }
 .album-thumb{
   width:100%;
+}
+
+.spinner {
+  margin: 100px auto 0;
+  width: 70px;
+  text-align: center;
+}
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #333;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
 }
